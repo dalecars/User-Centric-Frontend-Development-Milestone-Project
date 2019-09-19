@@ -3,6 +3,12 @@ body {
     padding: 0px;
 }
 
+
+.container-title {
+    padding-top: 20px;
+}
+
+
 /******************* navbar *******************/
 
 .navbar {
@@ -19,37 +25,46 @@ body {
 
 .top-container {
     height: 90vh;
-    background: url("../images/massage-background.png") no-repeat bottom center fixed; 
+    background: url("../images/heather-background.jpg") no-repeat bottom center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    padding: 0;
 }
 
 .jumbotron {
-    background-color: transparent
-}
-
-
-
-
-
-
-
-
-
-
-
-.title-container {
     background-color: transparent;
+    color: #4d004d;
 }
 
-.title {
+
+
+/******************* about *******************/
+
+
+.about-container {
     
 }
 
-.description {
-    
+.about-profile {
+    display: flex;
+    padding-top: 20px;
+}
+
+.about-history {
+    margin-right: 20px;
+}
+
+.about-image {
+
+}
+
+.avator {
+ vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
 
