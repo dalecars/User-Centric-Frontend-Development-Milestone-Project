@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/******************* navbar *******************/
+
+.navbar {
+    background: none;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
+
+/******************* jumbotron *******************/
+
+.top-container {
+    height: 90vh;
+    background: url("../images/massage-background.png") no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: transparent
+}
+
+
+
+
+
+
+
+
+
+
+
+.title-container {
+    background-color: transparent;
+}
+
+.title {
+    
+}
+
+.description {
+    
+}
+
+
+
+
