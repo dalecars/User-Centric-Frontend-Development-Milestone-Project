@@ -3,7 +3,6 @@ body {
     padding: 0px;
 }
 
-
 .container-title {
     padding-top: 20px;
 }
@@ -25,7 +24,7 @@ body {
 
 .top-container {
     height: 90vh;
-    background: url("../images/heather-background.jpg") no-repeat bottom center fixed; 
+    background: url("../images/heather-background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,8 +37,6 @@ body {
     color: #4d004d;
 }
 
-
-
 /******************* about *******************/
 
 
@@ -49,7 +46,6 @@ body {
 
 .about-profile {
     display: flex;
-    padding-top: 20px;
 }
 
 .about-history {
@@ -68,5 +64,36 @@ body {
 }
 
 
+/******************* treatmeants *******************/
 
+.treatmeants-background {
+    height: 90vh;
+    background: url("../images/treatmeant-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
 
+.accordion {
+    margin-top: 20px;
+}
+
+.card-header {
+    padding: 0;
+    margin: 0;
+}
+
+.card-header .btn-light {
+    color: #4d004d;
+}
+
+.card-body {
+    display: flex;
+}
+
+.treatmeant-image {
+  width: 250px;
+  height: 200px;
+}
