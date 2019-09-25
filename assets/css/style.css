@@ -11,9 +11,11 @@ body {
 /******************* navbar *******************/
 
 .navbar {
-    background: none;
+    background-color: #fff;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
+
 
 .navbar-nav {
     text-align: right;
@@ -22,6 +24,11 @@ body {
 
 /******************* jumbotron *******************/
 
+header {
+    background-color: transparent;
+    padding: 0;
+    margin:0;
+}
 .top-container {
     height: 90vh;
     background: url("../images/heather-background.jpg") no-repeat center center fixed; 
@@ -67,7 +74,7 @@ body {
 /******************* treatmeants *******************/
 
 .treatmeants-background {
-    height: 90vh;
+    min-height: 100vh;
     background: url("../images/treatmeant-background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -76,10 +83,18 @@ body {
     padding: 0;
 }
 
+.treatmeants-container {
+    
+}
+
 .accordion {
     margin-top: 20px;
 }
 
+.card {
+    background-color: transparent;
+    margin-bottom: 10px;
+}
 .card-header {
     padding: 0;
     margin: 0;
@@ -91,9 +106,97 @@ body {
 
 .card-body {
     display: flex;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.treatmeant-description {
+    
 }
 
 .treatmeant-image {
   width: 250px;
   height: 200px;
 }
+
+
+/******************* contact *******************/
+
+.contact-background {
+    min-height: 100vh;
+    background: url("../images/contact-background.jpg") no-repeat bottom center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+}
+
+.contact-details {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    margin-top: 50px;
+}
+
+.contact-input {
+    margin-top: 20px;
+}
+
+.contact-icon {
+    vertical-align: top;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.address {
+    display: inline-block;
+}
+
+
+/******************* footer *******************/
+
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
+.foot {
+    margin-bottom: 20px;
+}
+
+a {
+    padding: 5px 15px 5px 10px;
+    background-color: transparent;
+}
+
+.alignment {
+    line-height: 2px;
+}
+
+i {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #C3C3C3;
+    color: #8F8F8F;
+    width: 41px;
+    height: 41px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+
+}
+
+i:hover {
+    color: #564F6F;
+
+}
+
