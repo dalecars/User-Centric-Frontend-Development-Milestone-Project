@@ -6,17 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Kingdom Massage</title>
+    
+     
+    
 </head>
-<body>
+<body id="home">
 
 <!-- ########### Header ########### -->
 
-    <header >
+    <header>
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+            <a class="navbar-brand" href="#home">
+                <img src="assets/images/logo.jpg" width="30" height="30" class="d-inline align-middle" alt="logo">
                 Kingdom Massage
             </a>
             
@@ -26,22 +30,19 @@
   
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">Treatments</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="#home">Home</a>
+                    <a class="nav-item nav-link" href="#about">About</a>
+                    <a class="nav-item nav-link" href="#treatments">Treatments</a>
+                    <a class="nav-item nav-link" href="#contact">Contact</a>
                 </div>
             </div>
         </nav>
    
-        <div class="container-fluid top-container">
-            <div class="jumbotron">
-                <h1 class="display-4">Health and Sports Injury Treatments</h1>
-                <div class="jumbotron-message d-none d-sm-block">
-                    <p class="lead">Kingdom Massage offers a wide range of treatments that will help soothe away the cares and stresses of todays busy lifestyles.</p>
-                    <hr class="my-4">
-                    <p>Therapeutic options include, Swedish, Slavic, Hot Stones and Emmett, while more contemporary science based treatments are deep tissue, sports/remedial, trigger point and myofascial release.</p>
-                </div>
+        <div class="jumbotron">
+            <h1>Health and Sports Injury Treatments</h1>
+            <div class="jumbotron-message d-none d-sm-block">
+                <hr class="my-5">
+                <p>Kingdom Massage offers a wide range of treatments that will help soothe away the cares and stresses of todays busy lifestyles.</p>
             </div>
         </div>
     </header>
@@ -50,11 +51,14 @@
 <!-- ########### About section ########### -->
  
     <section id="about">
-        <div class="container about-container">
+        <div class="container section-container">
             <h2 class="container-title">About</h2>
             <div class="about-profile">
+                <div class="about-image d-none d-sm-block">
+                    <img src="assets/images/about.jpg" alt="Laura Gemmell" class="avator">
+                </div>
                 <div class="about-history">
-                    <h5>Laura Gemmell (RMT DOSM)</h5>
+                    <h3>Laura Gemmell <small>(RMT DOSM)</small></h3>
                     <p>I originally hail from Banbridge, Northern Ireland and have lived in Scotland since 2001, now residing in Carnock.
                     All my life i have been a keen sports person including Tae Kwon Do, badminton, golf and hockey. Now being a working mother I fully 
                     understand the day to day stress and tension a body can suffer.</p>
@@ -67,41 +71,39 @@
                     <p>After finishing my training with Scottish Massage Schools I've continued to develop my professional skills by studying techniques in Hot Stones, 
                     Slavic and Emmett therapies. I am also a member of Scottish Massage Therapists Organisation (SMTO).</p>
                 </div>    
-                <div class="about-image d-none d-sm-block">
-                    <img src="assets/images/about.jpg" alt="Laura Gemmell" class="avator">
-                </div>
             </div>
         </div>
     </section>
   
   
- <!-- ########### Treatmeants section ########### -->
+ <!-- ########### treatments section ########### -->
  
-    <section id="treatments" class="treatmeants-background">
-        <div class="container treatmeants-container">
-            <h2 class="container-title">Treatmeants</h2>
+    <section id="treatments" class="treatments-background">
+        <div class="container section-container">
+            <h2 class="container-title">Treatments</h2>
+            <div class="treatments-experience">
             <p>Using soothing music and soft lighting helps provide a tranquil and relaxing environment for you to unwind and de-stress. 
             So whether you are an athlete with a sports injury, a retired person with general aches and pains, a mother in need of some time 
             out or a stressed office worker our massages can be adapted to suit your needs.</p>
-            <div class="accordion" id="treatmeants-accordon">
+            <div class="accordion" id="treatments-accordon">
                 <div class="card">
                         <div class="card-header" id="headingOne">
                             <button class="btn btn-light btn-lg btn-block collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                               Sports and Remedial
                             </button>
                         </div>
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#treatmeants-accordon">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/sports_thumbnail.jpg" alt="Sports and Remedial" class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>The aim here is to get to the source of an ailment not just the accompanying symptoms. The techniques used (including trigger point and myofascial release) help reduce muscular tension and bring the muscles back into balance with a reduction in pain and
                                         an improvement in range of movement.</p>
                                     <p>It reduces the likelihood of injury and if it does occur, the healing process is quickened. It involves the manipulation of the soft tissues of the body such as muscles, fascia, ligaments and tendons which can become damaged, impaired, knotted, tense
                                         or immobile.</p>
                                     <p>This deep tissue massage not only suits sports people but anyone who suffers with chronic conditions such as back pain, sciatica, arthritis, headaches/migraines, repetitive strain injuries such as tennis and golfers elbow, frozen shoulder etc.</p>
                                     <p>People from all walks of life and of all ages may benefit from this treatment.</p>
-                                </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/sports_thumbnail.jpg" alt="Sports and Remedial" class="treatmeant-image">
                                 </div>
                             </div>
                         </div>
@@ -112,14 +114,14 @@
                                   Therapeutic
                             </button>
                         </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#treatmeants-accordon">
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/therapeutic_thumbnail.png" alt="Therapeutic"class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>This treatment aids relaxation through loosening and improving muscle tone.  An increase in circulation will also enhance both oxygen and nutrient delivery to muscle cells whilst boosting waste removal which results in a reduction of the physical effect of stress i.e. lower heart rate, breathing rate and blood pressure.</p>
                                     <p>Therapeutic massage can be used as a standalone treatment on a regular basis to promote that feel good feeling, as well as treating a wide range of conditions and ailments.</p>
-                                </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/therapeutic_thumbnail.png" alt="Therapeutic"class="treatmeant-image">
                                 </div>
                             </div>
                         </div>
@@ -130,15 +132,15 @@
                                 Reflexology
                             </button>
                         </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#treatmeants-accordon">
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/reflexology_thumbnail.jpeg" alt="Reflexology"class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>Reflexology is based on the theory that different points on the feet, lower leg, hands, face and ears correspond to different areas on the body.  It’s main aim is to help release stress which in turn will help the body heal and regenerate.  This is achieved through the central nervous system which signals the body to adjust tension levels and aims to enhance overall relaxation and potentially bring internal organs and their systems into a state of optimum functioning.</p>
                                     <p>Another bonus for reflexology is that it can be received by anyone of any age.  The therapist uses unique micromovement techniques with the goal of creating a positive response on the circulatory, respiratory, endocrine, immune and neuropeptide systems.</p>
                                     <p>Turn the tides on stress and let it was away with reflexology!</p>
-                                </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/reflexology_thumbnail.jpeg" alt="Reflexology"class="treatmeant-image">
                                 </div>
                             </div>
                         </div>
@@ -149,15 +151,15 @@
                                 Accupressure
                             </button>
                         </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#treatmeants-accordon">
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/accupressure_thumbnail.jpg" alt="Accupressure"class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>This is a traditional Chinese technique which involves physical pressure being applied to acupoints (common to both acupressure and acupuncture) using the fingertips, hand and elbow. It is a rejuvenating massage for the back, neck, shoulders, arms, hands and scalp. When the acupoints are pressed they release muscular tension and promote the circulation of blood, stimulating the bodies natural self-curative abilities.</p>
                                     <p>Acupressure stengthens resistance to disease and promotes wellness by concentrating on areas most affected by prolonged repetitive work. It continues to be the most effective method for tension-related ailments by using the power and sensitivity of the human hand.</p>
                                  </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/accupressure_thumbnail.jpg" alt="Accupressure"class="treatmeant-image">
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -167,14 +169,14 @@
                                   Aromatherapy
                             </button>
                         </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#treatmeants-accordon">
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/aromatherapy_thumbnail.jpeg" alt="Accupressure"class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>Aromatherapy is a holistic treatment using natural plant extracts to promote health and well being to awaken your senses and equip you to cope with lifes pressures.  The oil blend used is influenced by the desired outcome of the client.  So whether it’s revitalisation or  relaxation, the mind, body and spirit are all given a boost which enhances both physical and emotional health.</p>
                                  </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/aromatherapy_thumbnail.jpeg" alt="Accupressure"class="treatmeant-image">
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -184,15 +186,16 @@
                                 Slavic
                             </button>
                         </div>
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#treatmeants-accordon">
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/slavic_thumbnail.jpeg" alt="Slavic"class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>This massage was originally used in Mongolia on their warriors. Back then it was performed with honey, milk and floral water which were combined with herbal infusions.</p>
                                     <p>The massage was further developed in Eastern Europe were it became part of family culture and in the 20th century travelled west as part of ballet dancers pre and post exercise regimes.</p>
                                     <p>Slavic is the heart and soul of aromatherapy and takes it right back to its origins. It is a peaceful, harmonising massage that helps you drift into a dreamlike state using circular, flowing movements which are deeply relaxing. The warm blend of oil used
-                                        is ideal for relieving muscle tension and stress aiming to stimulate and relax, pull and support. It’s by this working in duality over every part of the body that rebalances the body’s own natural rhythms.</p></div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/slavic_thumbnail.jpeg" alt="Slavic"class="treatmeant-image">
+                                        is ideal for relieving muscle tension and stress aiming to stimulate and relax, pull and support. It’s by this working in duality over every part of the body that rebalances the body’s own natural rhythms.</p>
                                 </div>
                             </div>
                         </div>
@@ -203,18 +206,18 @@
                                 Hot Stones
                             </button>
                         </div>
-                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#treatmeants-accordon">
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/hotstones_thumbnail.jpg" alt="Hot Stones"class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>This is a unique full body massage performed with naturally self warming basalt lava stones. The warm smooth stones are expertly glided over the body with varying pressures, techniques and precision to alleviate the deepest aches, pains, stress and tension.</p>
                                     <p>Hot stones warmed by fire were used by Native Americans and has evolved through many different cultures throughout time. The sumptuous blend of oils used uniquely enhances the stones ability to radiate heat into the body’s tissues which will help promote
                                         healing to revitalise and rebalance the body and mind. This relaxation is achieved by opening up the bodies meridians (energy pathways).</p>
                                     <p>The heated stones expand the blood vessels which helps your body eliminate unwanted waste materials, whilst giving you a soothing sedative effect. You may notice improvement with: muscular aches and pains, poor circulation, rheumatic and arthritic conditions,
                                         fibromyalgia, multiple sclerosis, back pain, stress, anxiety and tension, insomnia, depression.</p>
                                     <p>The overall level of relaxation throughout the body and mind is profound.</p>
-                                </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/hotstones_thumbnail.jpg" alt="Hot Stones"class="treatmeant-image">
                                 </div>
                             </div>
                         </div>
@@ -225,13 +228,13 @@
                                 Reiki
                             </button>
                         </div>
-                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#treatmeants-accordon">
+                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
-                                    <p>Reiki is a Japanese healing art.  Its literal translation is ‘universal energy’ and in reality is the transmission of healing energy through the hands of the practitioner.  The energy known as ‘Ki’ flows through all living things and is vital to well being. The aim of the treatment is to rebalance these energy fields in and around the body to attempt to harmonise and bring relief to a wide range of physical, emotional and mental afflictions.</p>
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/reiki_thumbnail.jpeg" alt="Reiki"class="treatment-image">
                                 </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/reiki_thumbnail.jpeg" alt="Reiki"class="treatmeant-image">
+                                <div class="treatment-description">
+                                    <p>Reiki is a Japanese healing art.  Its literal translation is ‘universal energy’ and in reality is the transmission of healing energy through the hands of the practitioner.  The energy known as ‘Ki’ flows through all living things and is vital to well being. The aim of the treatment is to rebalance these energy fields in and around the body to attempt to harmonise and bring relief to a wide range of physical, emotional and mental afflictions.</p>
                                 </div>
                             </div>
                         </div>
@@ -242,9 +245,12 @@
                                 On-Site
                             </button>
                         </div>
-                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#treatmeants-accordon">
+                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#treatments-accordon">
                             <div class="card-body">
-                                <div class="treatmeant-description">
+                                <div class="d-none d-sm-block">
+                                    <img src="assets/images/onsite_thumbnail.jpeg" alt="On-Site"class="treatment-image">
+                                </div>
+                                <div class="treatment-description">
                                     <p>This is a rejuvenating massage for the upper body lasting 15-20 mins per session. It relaxes and calms yet energises and raises alertness.</p>
                                     
                                     <p>On-site massage is becoming an extremely important tool for companies in the fight against workplace stress. It is actively used as an integral part of staff wellness programmes and lends well to a large variety of companies as it is convenient due to
@@ -256,14 +262,11 @@
                                     <p>There are no oils or creams used and the acupoints which are pressed throughout the massage are accessible over clothes, so there is no need to disrobe. This type of massage also adapts well to a variety of situations and settings as there is no need
                                         for a private room. Conferences and events are ideal where it is often a welcomed break for tired delegates in need of a pick-me-up!</p>
                                 </div>
-                                <div class="treatmeant-image mt-auto d-none d-sm-block">
-                                    <img src="assets/images/onsite_thumbnail.jpeg" alt="On-Site"class="treatmeant-image">
-                                </div>
                             </div>
                         </div>
                     </div>
-                    
-            </div>    
+            </div>   
+            </div>
         </div>
         
    
@@ -272,29 +275,12 @@
             
             
             
-            
-            
-            
-             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
 <!-- ########### Contact section ########### -->
 
 
- 
     <section id="contact" class="contact-background">
         
-        <div class="container contact-container">
+        <div class="container section-container">
             <h2 class="container-title">Contact</h2>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 contact-details">
@@ -346,11 +332,14 @@
   <!-- ########### Footer ########### -->
  
     <footer>
-            
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        Follow us
+        <a href="https://www.facebook.com/Kingdom-Massage-141864289232921/" target="_blank" class="fab fa-facebook-f">        <i class=></i></a>
     </footer>
     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
  </body>
 </html>

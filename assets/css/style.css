@@ -1,9 +1,20 @@
 body {
     margin: 0px;
-    padding: 0px;
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 1.5em;
+    line-height: 1.6;
 }
 
 .container-title {
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: 500;
     padding-top: 20px;
 }
 
@@ -12,70 +23,95 @@ body {
 
 .navbar {
     background-color: #fff;
+    font-size: 1.1em;
     text-transform: uppercase;
-    margin-bottom: 50px;
 }
-
 
 .navbar-nav {
     text-align: right;
+}
+
+.navbar-brand {
+    font-weight: 400;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+}
+
+.navbar-toggler {
+    border: 0;
 }
 
 
 /******************* jumbotron *******************/
 
 header {
-    background-color: transparent;
-    padding: 0;
-    margin:0;
-}
-.top-container {
     height: 90vh;
     background: url("../images/heather-background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 0;
 }
 
 .jumbotron {
+    display: inline-block;
+    padding-top: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: transparent;
     color: #4d004d;
 }
 
+.jumbotron h1 {
+    font-size: 5em;
+}
+
+.jumbotron p {
+    font-size: 2.5em;
+}
+
+.jumbotron hr {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, rgba(77, 0, 77, 0), rgba(77, 0, 77, 0.75), rgba(77, 0, 77, 0));
+}
+
+
 /******************* about *******************/
 
 
-.about-container {
-    
+.about-profile {
+    padding: 5%;
 }
 
-.about-profile {
-    display: flex;
-}
 
 .about-history {
-    margin-right: 20px;
+    
+}
+.about-history h3 {
+    margin-bottom: 2%;
 }
 
 .about-image {
-
+    float: right;
 }
 
 .avator {
- vertical-align: middle;
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 50px;
+    vertical-align: middle;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 
-/******************* treatmeants *******************/
+/******************* treatments *******************/
 
-.treatmeants-background {
+.treatments-background {
     min-height: 100vh;
-    background: url("../images/treatmeant-background.jpg") no-repeat center center fixed; 
+    background: url("../images/treatment-background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -83,8 +119,8 @@ header {
     padding: 0;
 }
 
-.treatmeants-container {
-    
+.treatments-experience {
+    padding: 5%;
 }
 
 .accordion {
@@ -101,21 +137,28 @@ header {
 }
 
 .card-header .btn-light {
+    font-size: 1.1em;
+    font-weight: 400;
     color: #4d004d;
 }
 
 .card-body {
-    display: flex;
     background: rgba(255, 255, 255, 0.5);
 }
 
-.treatmeant-description {
+.treatment-description {
     
 }
 
-.treatmeant-image {
-  width: 250px;
-  height: 200px;
+.treatment-image {
+    float: right;
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -158,45 +201,46 @@ header {
 /******************* footer *******************/
 
 footer {
-    border-color: transparent;
+    background-color: #fff;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #3b5998;
+    font-weight: 700;
 }
 
-.foot {
-    margin-bottom: 20px;
-}
-
-a {
-    padding: 5px 15px 5px 10px;
-    background-color: transparent;
-}
-
-.alignment {
-    line-height: 2px;
-}
-
-i {
-    display: inline-block;
-    box-shadow: 0px 0px 2px #888;
-    background-color: #C3C3C3;
-    color: #8F8F8F;
-    width: 41px;
-    height: 41px;
-    padding: 20px 0;
-    border-radius: 50%;
-    font-size: 28px;
-    text-align: center;
+.fa-facebook-f {
     vertical-align: middle;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-left: 3px;
+    padding-top: 7px;
+    color: #fff; 
+    background: #3b5998;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
     transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
-
 }
 
-i:hover {
-    color: #564F6F;
-
+.fa-facebook-f:hover { 
+    background-color: #627AAC;
+    color: #fff;
+    text-decoration: none;
 }
 
+
+/******************* media queries *******************/
+
+@media (max-width: 767px) {
+    .jumbotron h1 {
+        font-size: 3em
+    }
+    
+    .section-container {
+    font-size: 1em;
+}
+}
