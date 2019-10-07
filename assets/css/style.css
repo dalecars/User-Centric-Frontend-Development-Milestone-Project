@@ -1,20 +1,20 @@
 body {
     margin: 0px;
     padding-top: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section-container {
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 1.6em;
+    font-size: 1.4em;
     line-height: 1.6;
 }
 
 .container-title {
     text-transform: uppercase;
-    letter-spacing: 0.3em;
-    font-weight: 500;
+    letter-spacing: 0.2em;
+    font-weight: 700;
     padding-top: 20px;
 }
 
@@ -32,21 +32,24 @@ body {
 }
 
 .navbar-brand {
-    font-weight: 400;
-    font-size: 0.7em;
-    letter-spacing: 0.2em;
+    
 }
 
 .navbar-toggler {
     border: 0;
 }
 
+.navbar-light  .navbar-brand {
+    color: #4d004d;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
 
 /******************* jumbotron *******************/
 
 header {
-    height: 90vh;
-    background: url("../images/massage-background5.jpg") no-repeat center center fixed; 
+    height: 100vh;
+    background: url("../images/massage-background9.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,20 +58,25 @@ header {
 
 .jumbotron {
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-left: 5%;
     margin-right: 5%;
-    background: rgba(255, 255, 255, 0.5);
+    background: transparent;
     color: #4d004d;
     border-radius: 8px
 }
 
 .jumbotron h1 {
-    font-size: 5em;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+.jumbotron h2 {
+    font-size: 3em;
 }
 
 .jumbotron p {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .jumbotron hr {
@@ -103,6 +111,22 @@ header {
     height: 300px;
     border-radius: 50%;
 }
+
+
+/******************* massage-therapy *******************/
+
+.massage-therapy {
+    padding: 5%;
+}
+
+ .body-pains {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
 
 
 /******************* treatments *******************/
@@ -211,7 +235,7 @@ footer {
 
 .fa-facebook-f {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 400;
     vertical-align: middle;
     margin-left: 5px;
     margin-right: 5px;
@@ -234,7 +258,7 @@ footer {
 
 .fa-twitter {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 400;
     vertical-align: middle;
     margin-left: 5px;
     margin-right: 5px;
@@ -261,14 +285,18 @@ footer {
 @media (max-width: 767px) {
     
     .navbar {
-    font-size: 1.3em;
+    font-size: 0.8em;
     }
 
     .jumbotron h1 {
-        font-size: 3em
+        font-size: 2em
+    }
+    
+    .jumbotron h2 {
+        font-size: 1.5em
     }
     
     .section-container {
-    font-size: 1.2em;
+    font-size: 1em;
     }
 }
