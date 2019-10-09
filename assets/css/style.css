@@ -68,7 +68,7 @@ header {
 
 .jumbotron h1 {
     font-weight: 700;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 .jumbotron h2 {
@@ -229,8 +229,8 @@ header {
 footer {
     background-color: #4d004d;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #fff;
     font-size: 1.6em;
     font-weight: 700;
