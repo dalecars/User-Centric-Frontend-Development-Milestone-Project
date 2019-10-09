@@ -23,7 +23,7 @@ body {
 
 .navbar {
     background-color: #fff;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-transform: uppercase;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .navbar-light  .navbar-brand {
     color: #4d004d;
-    font-size: 1.2em;
+    font-size: 1.1em;
     letter-spacing: 0.1em;
 }
 
@@ -68,11 +68,11 @@ header {
 
 .jumbotron h1 {
     font-weight: 400;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 .jumbotron h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .jumbotron p {
