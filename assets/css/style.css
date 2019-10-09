@@ -23,7 +23,7 @@ body {
 
 .navbar {
     background-color: #fff;
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-transform: uppercase;
 }
 
@@ -58,7 +58,7 @@ header {
 
 .jumbotron {
     display: inline-block;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
     background: transparent;
@@ -68,11 +68,11 @@ header {
 
 .jumbotron h1 {
     font-weight: 400;
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .jumbotron h2 {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .jumbotron p {
@@ -93,23 +93,26 @@ header {
     padding: 5%;
 }
 
-
-.about-history {
-    padding-top: 2%;
+.about-profile .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.about-image {
-    float: right;
+.about-profile hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
-.avator {
-    margin-top: 75px;
-    margin-left: 50px;
+.profile-image {
+    width: 200px;
     margin-right: 50px;
-    vertical-align: middle;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+.profile-history {
+    margin-top: 30px;
 }
 
 
@@ -187,8 +190,8 @@ header {
 /******************* contact *******************/
 
 .contact-background {
-    min-height: 100vh;
-    background: url("../images/contact-background.jpg") no-repeat bottom center fixed; 
+    min-height: 90vh;
+    background: url("../images/contact-background8.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -282,21 +285,34 @@ footer {
 
 /******************* media queries *******************/
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
     
     .navbar {
     font-size: 0.8em;
     }
 
     .jumbotron h1 {
-        font-size: 2em
+        font-size: 3em
     }
     
     .jumbotron h2 {
+        font-size: 2em
+    }
+    
+    .jumbotron p {
         font-size: 1.5em
     }
     
     .section-container {
-    font-size: 1em;
+    font-size: 1.2em;
     }
+    
+    .profile-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    } 
 }
+
+
+
