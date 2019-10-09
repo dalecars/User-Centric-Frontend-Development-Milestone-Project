@@ -7,7 +7,7 @@ body {
 .section-container {
     padding-top: 50px;
     padding-bottom: 50px;
-    font-size: 1.4em;
+    font-size: 1em;
     line-height: 1.6;
 }
 
@@ -68,15 +68,15 @@ header {
 
 .jumbotron h1 {
     font-weight: 400;
-    font-size: 5em;
-}
-
-.jumbotron h2 {
     font-size: 4em;
 }
 
+.jumbotron h2 {
+    font-size: 3em;
+}
+
 .jumbotron p {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .jumbotron hr {
@@ -292,19 +292,19 @@ footer {
     }
 
     .jumbotron h1 {
-        font-size: 3em
-    }
-    
-    .jumbotron h2 {
         font-size: 2em
     }
     
-    .jumbotron p {
+    .jumbotron h2 {
         font-size: 1.5em
     }
     
+    .jumbotron p {
+        font-size: 1em
+    }
+    
     .section-container {
-    font-size: 1.2em;
+    font-size: 1em;
     }
     
     .profile-image {
