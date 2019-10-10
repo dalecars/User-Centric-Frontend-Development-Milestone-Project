@@ -7,7 +7,7 @@ ___
 ### UX
 The design goal for the website was to make a contemporary spacious page that had a clear clutter free layout to display the information easily to vistors. The website colour scheme of purple hues for the text headings and section breakpoints links with the Kingdom Massage logo that represents a thistle.
 
-An introduction section was used to highlight what is massage therpay treatment, identify potential clients and the benefits to them.  It was then important to detail the large number of treatments that Kingdom Massage offers in the following section. Each treatment had to be described but had to be shown in a clear user friendly layout that was achieved with an accordian layout design, that only displays the information for the treatment selected.
+An introduction section was used to highlight what is a massage therpay treatment, identify potential clients and the benefits to them.  It was then important to detail the large number of treatments that Kingdom Massage offers in the following section. Each treatment had to be described but had to be shown in a clear user friendly layout that was achieved with an accordian layout design, that only displays the information for the treatment selected.
 
 The about section highlights the background history of owner Laura Gemmell, showing the origins from her sporting career to becoming a working mother and the training undertaken to become a massage therapist. A brief history was also included for each massage therapist at kingdom massage with a potrait image to show a more personal touch.
 
