@@ -33,14 +33,17 @@ A price section to the website will also added to allow the user the option to b
 
 ### Testing
 ___
-The navbar for the site was to be fixed to top of screen and i wanted to minimse its screen space when viewed on mobile and tablet devices. To achieve this a toggle was used to hide the nav menu on these smaller screen sizes. This feature was tested at all screen sizes and the fixed top navbar allowed quick and easy access to these nav links at all times.
+The navbar for the site was to be fixed to top of screen and i wanted to minimse its screen space when viewed on mobile and tablet devices. To achieve this a toggle was used to hide the nav menu on these smaller screen sizes. This feature was tested and the fixed top navbar allowed quick and easy access to these nav links at all times with the user moving to the desired section when selected.
 
-The about section was used to detail  Laura's history in becoming a massage therapist and the ongoing training undertaken. Viewing on desktop and tablet devices I wanted to include a potrait image of Laura but felt that this added uneccesary clutter when viewed on mobile devices and wanted this to be hidden. This feature was tested at all device media sizes.
+It was neccessary to list all the treatments that Kingdom Massage offers. An accordian feature was succesfully used to hide the detail description with an image for each treatment until a user choose to view the treatment. For phone users the treatment image was deemed 
+unnecessary and added clutter, this was hidden when viewed at this screen size. This accordion design was tested at each screen size succesfully.
 
-It was neccessary to list all the treatments that Kingdom Massage offers. An accordian feature was succesfully used to hide the detail description with an image for each treatment until a user choose to view the treatment. For phone users the treatment image was deemed unecessary and added clutter, this was hidden when viewed at this screen size. This accordion was tested at all screen sizes.
+For the about section a grid design was used to display the therapist image in one column and the profile history in another. For desktop and tablet display the two columns were displayed side by side. However for phone users both columns were to be spread to the screen width and below each other. It was then neccessary to ensure that the profile image was centered on the phone display. The profile history content was to be partial hidden to limit screen space and only fully displayed when the user clicked on "read more..." button. All features for this section were succesfully tested to the various screen sizes.
 
 The Contact section included address details for Kingdom Massage and a user form to allow a message to be sent for further details or to arrange an appointment. A nested grid layout was used to display at tablet and desktop screen sizes this information side by side in two columns, but at smaller phone sizes it was best to only display each col at the full screen view. This was tested and clearly displayed the info as intended at the differet screen sizes.
 
-The user form was tested to ensure that all fields were completed and displayed an error message if not. The form also was tested to ensure that the user can only enter numbers and symbols for the phone field and must enter a valid email address before the user can submit the input otherwise an error message will be displayed. 
+The user form was tested to ensure that all fields were completed and displayed an error message if not. The form was tested to ensure that the user can only enter numbers and symbols for the phone field and must enter a valid email address before the user can submit the input otherwise an error message will be displayed. 
+
+Social media links were included in the footer this was tested to ensure that a new tab was opened and user directed to the correct page. The links also changed background colour when user hoovered over the link this was tested and showed a gradual transition as expected.
 
 
