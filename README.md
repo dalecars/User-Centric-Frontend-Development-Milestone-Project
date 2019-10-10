@@ -1,15 +1,15 @@
 # Kingdom Massage 
 ### Project: User-Centric Frontend Development - Code Institute
 ___
-This is a website for Kingdom Massage located in Edinburgh and owned by Laura Gemmell. The website highlights the health and sports injury treatments that Kingdom Massage offers, including the background history for Laura Gemmell and contact details to arrange a treatment. 
+This is a website for Kingdom Massage located in Edinburgh and owned by Laura Gemmell. The website highlights the health and sports injury treatments that Kingdom Massage offers, including the background history for each massage therapist and contact details to arrange a treatment. 
 
 ### UX
 ___
-The design goal for the website was to make a contemporary spacious page that had a clear clutter free layout to display the information easily to vistors. The website colour scheme of purple hues links with the Kingdom Massage logo that represents a thistle.
+The design goal for the website was to make a contemporary spacious page that had a clear clutter free layout to display the information easily to vistors. The website colour scheme of purple hues for the text headings and section breakpoints links with the Kingdom Massage logo that represents a thistle.
 
-The about section highlights the background history of Laura Gemmell, showing the origins from her sporting career to becoming a working mother and the training undertaken to become a massage therapist. A potrait image was used of Laura to show a more personal touch.
+An introduction section was used to highlight what is massage therpay treatment, identify potential clients and the benefits to them.  It was then important to detail the large number of treatments that Kingdom Massage offers in the following section. Each treatment had to be described but had to be shown in a clear user friendly layout that was achieved with an accordian layout design, that only displays the information for the treatment selected.
 
-For potential clients, it was important to detail the large number of treatments that Kingdom Massage offers. Each treatment had to be described but had to be shown in a clear user friendly layout that was achieved with an accordian layout scheme, that only displays the information for the treatment selected. 
+The about section highlights the background history of owner Laura Gemmell, showing the origins from her sporting career to becoming a working mother and the training undertaken to become a massage therapist. A brief history was also included for each massage therapist at kingdom massage with a potrait image to show a more personal touch.
 
 It was a requirement to provide contact details for Kingdom Massage and also the opportunity to allow clients to send a message for further information or to arrange a treatment. Social media links were also provided at the footer of the page encouraging clients to follow Kingdom Massage on Facebook and Twitter.
 
@@ -22,13 +22,14 @@ ___
 
 ### Features
 ___
-This site uses a fixed top Bootstrap 4 navbar with a brand logo on the left and collapse menu on the right that is response to media size. An accordion is used for the treatments section as it was ideal to toggle between hiding and showing large amount of content. Javascript is used to enable the collapse features of the navbar and the accordion.
+This site uses a fixed top Bootstrap 4 navbar with a brand logo on the left and collapse menu on the right that is responsive to media size. An accordion is used for the treatments section as it was ideal to toggle between hiding and showing large amount of content. For the about profile of each massage therapist only some porfile content was provided allowing the user to expanded this for further reading. Javascript is used to enable the collapse features of the navbar, the accordion treatments section, as well as hinding the about profile content.
 
 ##### Features to Implement
-In the future, I would like to add further javascript to the Navbar while using small/medium media when the navbar is epanded that it collapses the menu when a link is clicked. I would also like to add a price section to the website that will also allow the user the option to buy gift certificates.
+In the future, I would like to add further javascript to the Navbar while using phone/tablet media when the navbar is epanded that it collapses the menu when a link is clicked. I would also like to add further javascript to the about content section is that the toggle button for each profile changes from "read more..." to "read less..." depending on what has been selected.
 
 An input form has been created in the contact section to allow potential clients to send Kingdom Massage a message with the senders details. The front end of the form has only been created, but the backend coding using PHP to send the message has to be developed.  
 
+A price section to the website will also added to allow the user the option to buy gift certificates.
 
 ### Testing
 ___
