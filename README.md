@@ -74,5 +74,7 @@ The full browser background image in the header and contact section was complete
 
 The accordion design found in the treatment section was created following the example from bootstrap 4 documentaion [linked here](https://getbootstrap.com/docs/4.1/components/collapse/).
 
+The grid system used for the about section and the contact section was created following examples from bootstrap 4 documentation, [linked here](https://getbootstrap.com/docs/4.0/layout/grid/).
+
 
 
