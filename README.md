@@ -55,14 +55,14 @@ To run locally, you can clone this repository directly into the editor of your c
 ### Credits
 ___
 
-##### Content
+#### Content
 
 All content on the "Massage Therapy", "Treatment" and "About" sections in this site were written by Laura Gemmell.
 
-##### Media
+#### Media
 All photos were taken from shutterstock, a stock image library, with the exception of the profile photo of the massage therapists and the logo that was created.
 
-##### Acknowledgements
+#### Acknowledgements
 
 The scrollSpy delay JavaScript function was found through this tutorial here.
 
