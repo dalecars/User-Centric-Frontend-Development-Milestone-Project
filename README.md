@@ -1,7 +1,7 @@
 # Kingdom Massage 
 ### Project: User-Centric Frontend Development
 ___
-This is a website for Kingdom Massage located in Edinburgh and owned by Laura Gemmell. The website highlights the health and sports injury treatments that Kingdom Massage offers, including the background history for each massage therapist and contact details to arrange a treatment. 
+This is a website for Kingdom Massage located in Edinburgh and owned by Laura Gemmell. The website highlights the health and sports injury treatments that Kingdom Massage offers, including the background history for each massage therapist and contact details to arrange a treatment.  
 
 ### UX
 ___
@@ -11,14 +11,14 @@ An introduction section was used to highlight what is massage therpay treatment,
 
 The about section highlights the background history of owner Laura Gemmell, showing the origins from her sporting career to becoming a working mother and the training undertaken to become a massage therapist. A brief history was also included for each massage therapist at kingdom massage with a potrait image to show a more personal touch.
 
-It was a requirement to provide contact details for Kingdom Massage and also the opportunity to allow clients to send a message for further information or to arrange a treatment. Social media links were also provided at the footer of the page encouraging clients to follow Kingdom Massage on Facebook and Twitter.
+It was a requirement to provide contact details for Kingdom Massage and also the opportunity to allow clients to send a message for further information or to arrange a treatment. Social media links were also provided at the footer of the page encouraging clients to follow Kingdom Massage on Facebook and Twitter.  
 
 ### Technologies
 ___
 1. HTML
 2. CSS
 3. Bootstrap (v4.3)
-4. Javascript
+4. Javascript  
 
 ### Features
 ___
@@ -29,7 +29,7 @@ In the future, I would like to add further javascript to the Navbar while using 
 
 An input form has been created in the contact section to allow potential clients to send Kingdom Massage a message with the senders details. The front end of the form has only been created, but the backend coding using PHP to send the message has to be developed.  
 
-A price section to the website will also added to allow the user the option to buy gift certificates.
+A price section to the website will also added to allow the user the option to buy gift certificates.  
 
 ### Testing
 ___
@@ -44,13 +44,13 @@ The Contact section included address details for Kingdom Massage and a user form
 
 The user form was tested to ensure that all fields were completed and displayed an error message if not. The form was tested to ensure that the user can only enter numbers and symbols for the phone field and must enter a valid email address before the user can submit the input otherwise an error message will be displayed. 
 
-Social media links were included in the footer this was tested to ensure that a new tab was opened and user directed to the correct page. The links also changed background colour when user hoovered over the link this was tested and showed a gradual transition as expected.
+Social media links were included in the footer this was tested to ensure that a new tab was opened and user directed to the correct page. The links also changed background colour when user hoovered over the link this was tested and showed a gradual transition as expected.  
 
 ### Deployment
 ___
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://dalecars.github.io/User-Centric-Frontend-Development-Milestone-Project/
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://dalecars.github.io/User-Centric-Frontend-Development-Milestone-Project/  
 
 ### Credits
 ___
