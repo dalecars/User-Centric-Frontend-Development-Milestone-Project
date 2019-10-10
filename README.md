@@ -51,3 +51,18 @@ ___
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://dalecars.github.io/User-Centric-Frontend-Development-Milestone-Project/
+
+### Credits
+___
+
+##### Content
+
+All content on the "Massage Therapy", "Treatment" and "About" sections in this site were written by Laura Gemmell.
+
+##### Media
+All photos were taken from shutterstock, a stock image library, with the exception of the profile photo of the massage therapists and the logo that was created.
+
+##### Acknowledgements
+
+The scrollSpy delay JavaScript function was found through this tutorial here.
+
