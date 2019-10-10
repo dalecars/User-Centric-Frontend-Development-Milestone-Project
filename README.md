@@ -68,6 +68,11 @@ All photos were taken from shutterstock, a stock image library, with the excepti
 
 #### Acknowledgements
 
-The navigation brand and navbar collapse feature was implmented using example from bootsrap 4 documentation [found here](https://getbootstrap.com/docs/4.0/components/navbar/).
+The navigation brand and navbar collapse feature was implemented using example from bootsrap 4 documentation [found here](https://getbootstrap.com/docs/4.0/components/navbar/).
+
+The full browser background image in the header and contact section was completed using example code taken from [CSS-Tricks site](https://css-tricks.com/perfect-full-page-background-image/).
+
+The accordion design found in the treatment section was created following the example from bootstrap 4 documentaion [linked here](https://getbootstrap.com/docs/4.1/components/collapse/).
+
 
 
