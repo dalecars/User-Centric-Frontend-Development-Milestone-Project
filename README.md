@@ -68,5 +68,6 @@ All photos were taken from shutterstock, a stock image library, with the excepti
 
 #### Acknowledgements
 
-The scrollSpy delay JavaScript function was found through this tutorial here.
+The navigation brand and navbar collapse feature was implmented using example from bootsrap 4 documentation [found here](https://getbootstrap.com/docs/4.0/components/navbar/).
+
 
