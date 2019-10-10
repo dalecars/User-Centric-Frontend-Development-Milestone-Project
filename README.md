@@ -1,5 +1,5 @@
 # Kingdom Massage 
-### Project: User-Centric Frontend Development - Code Institute
+### Project: User-Centric Frontend Development
 ___
 This is a website for Kingdom Massage located in Edinburgh and owned by Laura Gemmell. The website highlights the health and sports injury treatments that Kingdom Massage offers, including the background history for each massage therapist and contact details to arrange a treatment. 
 
