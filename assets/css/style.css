@@ -17,13 +17,13 @@ body {
     background-image: linear-gradient(to right, rgba(77, 0, 77, 0), rgba(77, 0, 77, 0.75), rgba(77, 0, 77, 0));
 }
 
-
 .container-title {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 700;
     padding-top: 20px;
 }
+
 
 /******************* navbar *******************/
 
@@ -50,6 +50,7 @@ body {
     font-size: 1.2em;
     letter-spacing: 0.1em;
 }
+
 
 /******************* jumbotron *******************/
 
@@ -92,8 +93,6 @@ header {
 }
 
 
-
-
 /******************* about *******************/
 
 
@@ -107,7 +106,7 @@ header {
 }
 
 .about-hr {
-    height: 12px;
+    height: 4px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
@@ -164,6 +163,7 @@ header {
     background-color: transparent;
     margin-bottom: 10px;
 }
+
 .card-header {
     padding: 0;
     margin: 0;
@@ -199,7 +199,7 @@ header {
 
 .contact-background {
     min-height: 90vh;
-    background: url("../images/contact-background8.jpg") no-repeat bottom right fixed; 
+    background: url("../images/contact-background.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -245,14 +245,14 @@ footer {
 }
 
 .fa-facebook-f {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 400;
     vertical-align: middle;
     margin-left: 5px;
     margin-right: 5px;
     padding-top: 7px;
     color: #4d004d; 
-    background: #afafaf;
+    background: #B3B6B7;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -268,14 +268,14 @@ footer {
 }
 
 .fa-twitter {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 400;
     vertical-align: middle;
     margin-left: 5px;
     margin-right: 5px;
     padding-top: 7px;
     color: #4d004d; 
-    background: #afafaf;
+    background: #B3B6B7;
     height: 50px;
     width: 50px;
     border-radius: 50%;
