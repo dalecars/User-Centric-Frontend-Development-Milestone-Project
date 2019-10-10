@@ -46,4 +46,8 @@ The user form was tested to ensure that all fields were completed and displayed 
 
 Social media links were included in the footer this was tested to ensure that a new tab was opened and user directed to the correct page. The links also changed background colour when user hoovered over the link this was tested and showed a gradual transition as expected.
 
+### Deployment
+___
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://dalecars.github.io/User-Centric-Frontend-Development-Milestone-Project/
