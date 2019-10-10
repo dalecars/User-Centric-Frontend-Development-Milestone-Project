@@ -24,7 +24,7 @@ ___
 ___
 This site uses a fixed top Bootstrap 4 navbar with a brand logo on the left and collapse menu on the right that is responsive to media size. An accordion is used for the treatments section as it was ideal to toggle between hiding and showing large amount of content. For the about profile of each massage therapist only some porfile content was provided allowing the user to expanded this for further reading. Javascript is used to enable the collapse features of the navbar, the accordion treatments section, as well as hinding the about profile content.
 
-##### Features to Implement
+#### Features to Implement
 In the future, I would like to add further javascript to the Navbar while using phone/tablet media when the navbar is epanded that it collapses the menu when a link is clicked. I would also like to add further javascript to the about content section is that the toggle button for each profile changes from "read more..." to "read less..." depending on what has been selected.
 
 An input form has been created in the contact section to allow potential clients to send Kingdom Massage a message with the senders details. The front end of the form has only been created, but the backend coding using PHP to send the message has to be developed.  
