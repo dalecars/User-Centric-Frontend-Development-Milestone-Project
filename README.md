@@ -76,5 +76,5 @@ The accordion design found in the treatment section was created following the ex
 
 The grid system used for the about section and the contact section was created following examples from bootstrap 4 documentation, [linked here](https://getbootstrap.com/docs/4.0/layout/grid/).
 
-
+Social media icon links found in the footer was created and edited using examples in tutorial from w3schools.com, [found here](https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
 
