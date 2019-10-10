@@ -5,11 +5,18 @@ body {
 }
 
 .section-container {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 1em;
     line-height: 1.6;
 }
+
+.section-hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(77, 0, 77, 0), rgba(77, 0, 77, 0.75), rgba(77, 0, 77, 0));
+}
+
 
 .container-title {
     text-transform: uppercase;
@@ -17,7 +24,6 @@ body {
     font-weight: 700;
     padding-top: 20px;
 }
-
 
 /******************* navbar *******************/
 
@@ -86,6 +92,8 @@ header {
 }
 
 
+
+
 /******************* about *******************/
 
 
@@ -98,7 +106,7 @@ header {
     padding-bottom: 20px;
 }
 
-.about-profile hr {
+.about-hr {
     height: 12px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
@@ -135,13 +143,13 @@ header {
 /******************* treatments *******************/
 
 .treatments-background {
-    min-height: 100vh;
-    background: url("../images/treatment-background.jpg") no-repeat center center fixed; 
+   /*  min-height: 100vh;
+    background: url("../images/treatment-background4.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 0;
+    padding: 0; */
 }
 
 .treatments-experience {
@@ -196,7 +204,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 0;
+    padding: 0; 
 }
 
 .contact-details {
@@ -232,12 +240,12 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #fff;
-    font-size: 1.6em;
+    font-size: 1em;
     font-weight: 700;
 }
 
 .fa-facebook-f {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 400;
     vertical-align: middle;
     margin-left: 5px;
@@ -260,7 +268,7 @@ footer {
 }
 
 .fa-twitter {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 400;
     vertical-align: middle;
     margin-left: 5px;
