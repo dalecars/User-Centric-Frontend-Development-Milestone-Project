@@ -54,7 +54,8 @@ ___
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://dalecars.github.io/User-Centric-Frontend-Development-Milestone-Project/  
+The site has been deployed to this location:
+https://dalecars.github.io/User-Centric-Frontend-Development-Milestone-Project/  
 
 ___
 ### Credits
