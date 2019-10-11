@@ -142,13 +142,7 @@ header {
 /******************* treatments *******************/
 
 .treatments-background {
-   /*  min-height: 100vh;
-    background: url("../images/treatment-background4.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 0; */
+
 }
 
 .treatments-experience {
@@ -160,7 +154,6 @@ header {
 }
 
 .card {
-    background-color: transparent;
     margin-bottom: 10px;
 }
 
@@ -294,7 +287,6 @@ footer {
 /******************* media queries *******************/
 
 @media (max-width: 576px) {
-    
     .navbar {
     font-size: 0.8em;
     }
@@ -309,10 +301,6 @@ footer {
     
     .jumbotron p {
         font-size: 1em
-    }
-    
-    .section-container {
-    font-size: 1em;
     }
     
     .profile-image {
